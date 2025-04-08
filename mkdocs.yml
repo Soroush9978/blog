@@ -1,4 +1,39 @@
-site_name: My site
-site_url: https://mydomain.org/mysite
+site_name: Soroush Personal Blog :))
+site_url: https://blog.baboojoo.ir
 theme:
+  features:
+    - content.code.copy
+    - navigation.sections
+    - navigation.top
+  language: en
   name: material
+  palette:
+    primary: custom  # Note: "Primary" should be lowercase; "custom" is valid if defined elsewhere
+    scheme: default
+plugins:
+  - blog
+  - search
+  # - rss:
+  #     match_path: blog/posts/.*
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
+  #     image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
+  # - tags:
+  #     enabled: true
+  #     tags_file: tags.md
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/Soroush9978  # Removed "!" from URL (likely a typo)
+    # - icon: material/rss
+    #   link: https://msleigh.io/
+copyright: Copyright © 2025 Soroush
+repo_url: https://github.com/Soroush9978/blog
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.arithmatex

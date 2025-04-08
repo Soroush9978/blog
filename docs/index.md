@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# Moin Moin =))
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Personal website of Soroush Pasandideh, Mathematics student at university of Münster, part time sysadmin and programmer.
 
-## Commands
+## About
+Hi! I'm a math student who’s always been curious about how things work—both in theory and in practice. I love the beauty of abstract math, but I’m just as excited about the world of computer science, especially when it comes to Linux and open-source tools. There’s something really satisfying about tinkering with systems, writing code, and learning through trial and error. I enjoy finding that sweet spot where logical thinking meets creative problem-solving—and I’m always up for exploring new ideas, whether it’s through a math proof or a terminal window.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
