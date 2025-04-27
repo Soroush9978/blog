@@ -1,4 +1,4 @@
-site_name: Soroush Personal Blog :))
+site_name: Soroush Personal Blog =))
 site_url: https://blog.baboojoo.ir
 theme:
   features:
@@ -10,6 +10,12 @@ theme:
   palette:
     primary: custom  # Note: "Primary" should be lowercase; "custom" is valid if defined elsewhere
     scheme: default
+nav: 
+  - Home: index.md 
+  - Blog:
+     - Learning: 
+          - "Networking": blog/Networking.md
+       
 plugins:
   - blog
   - search
