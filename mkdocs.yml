@@ -5,11 +5,20 @@ theme:
     - content.code.copy
     - navigation.sections
     - navigation.top
+    - palette.toggle
   language: en
   name: material
   palette:
-    primary: custom
-    scheme: default
+    - scheme: default
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 nav:
   - Home: index.md
