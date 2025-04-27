@@ -8,14 +8,35 @@ theme:
   language: en
   name: material
   palette:
-    primary: custom  # Note: "Primary" should be lowercase; "custom" is valid if defined elsewhere
+    primary: custom
     scheme: default
-nav: 
-  - Home: index.md 
+
+nav:
+  - Home: index.md
   - Blog:
-     - Learning: 
+      - Learning:
           - "Networking": blog/Networking.md
-       
+          - "Programming": blog/Programming.md
+          - "Sysadmin Question": blog/Sysadmin_Question.md
+          - "Security": blog/security.md
+          - "Inventory": blog/inventory.md
+          - "Syntax Highlighting in Vim": blog/synatax_hilight_vim.md
+          - "Jobs Ad": blog/Jobs-ad.md
+          - "Test Cases": blog/test_cases.md
+          - "QA Testing": blog/QA-Testing.md
+          - "QA-ST": blog/QA-ST.md
+          - "NO": blog/NO.md
+          - "ParSy": blog/ParSy.md
+          - "OS": blog/OS.md
+          - "Network Security": blog/Network_security.md
+          - "Sysadmin HPC Learning": blog/sysadmin-HPC-learning.md
+          - "Note": blog/note.md
+          - "Sccout NC": blog/sccuot_NC.md
+          - "04.06.2024": blog/04.06.2024.md
+          - "04.06.2024 Backup": blog/04.06.2024-bck.md
+          - "05.01.25": blog/05.01.25.md
+          - "06.01.25": blog/06.01.25.md
+
 plugins:
   - blog
   - search
@@ -30,17 +51,18 @@ plugins:
   # - tags:
   #     enabled: true
   #     tags_file: tags.md
+
 extra:
   social:
     - icon: material/github
-      link: https://github.com/Soroush9978  # Removed "!" from URL (likely a typo)
-    # - icon: material/rss
-    #   link: https://msleigh.io/
+      link: https://github.com/Soroush9978
+
 copyright: Copyright © 2025 Soroush
 repo_url: https://github.com/Soroush9978/blog
+
 markdown_extensions:
   - attr_list
   - footnotes
   - md_in_html
   - pymdownx.arithmatex
-    
+
