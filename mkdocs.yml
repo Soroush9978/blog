@@ -24,6 +24,7 @@ nav:
   - Home: index.md
   - Blog:
       - Learning:
+          - "FreeBSD": blog/FreeBSD.md
           - "Networking": blog/Networking.md
           - "Programming": blog/Programming.md
           - "Sysadmin Question": blog/Sysadmin_Question.md
