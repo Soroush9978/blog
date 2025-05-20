@@ -1,8 +1,6 @@
 # First encounter with freeBSD
 Recently I have Installed FreeBSD on some relatively old hardware Thinkpad X201 :)), here I gather the things that I will learn and had learn through the process
-# FreeBSD: A Comprehensive Guide
 
-FreeBSD is a powerful, secure, and highly customizable Unix-like operating system known for its performance, advanced networking stack, and ZFS filesystem. This guide covers installation, administration, and optimization based on discussions with DeepSeek Chat.
 
 ---
 
